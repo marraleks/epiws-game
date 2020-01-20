@@ -1,0 +1,28 @@
+{
+  "name": "epiws",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": "Marius",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0"
+  },
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "expo": "^34.0.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
+    "react-native-fontawesome": "6.0.1",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-paper": "2.2.8",
+    "react-native-remote-svg": "2.0.6",
+    "react-native-svg-image": "2.0.1",
+    "react-native-swipe-gestures": "1.0.3",
+    "react-native-vector-icons": "6.4.2",
+    "react-native-webview": ">=5.2.4",
+    "react-navigation": "3.11.0"
+  }
+}

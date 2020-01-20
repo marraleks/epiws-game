@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add react-native-gesture-hand�ler
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:139:13)
+      at Object.request (https.js:309:10)
+      at Request.module.exports.Request.start (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130152:32)
+      at Request.module.exports.Request.end (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130911:10)
+      at end (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:129965:14)
+      at Immediate._onImmediate (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:129979:7)
+      at processImmediate (internal/timers.js:439:21)
+
+npm manifest: 
+  {
+    "name": "epiws",
+    "version": "0.0.0",
+    "description": "No description",
+    "author": null,
+    "private": true,
+    "main": "node_modules/expo/AppEntry.js",
+    "devDependencies": {
+      "babel-preset-expo": "^7.0.0"
+    },
+    "scripts": {
+      "start": "expo start"
+    },
+    "dependencies": {
+      "expo": "^34.0.0",
+      "react": "16.8.3",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
+      "react-navigation": "3.11.0",
+      "react-native-paper": "2.2.8",
+      "react-native-webview": ">=5.2.4",
+      "react-native-svg-image": "2.0.1",
+      "react-native-remote-svg": "2.0.6",
+      "react-native-fontawesome": "6.0.1",
+      "react-native-swipe-gestures": "1.0.3",
+      "react-native-vector-icons": "6.4.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
